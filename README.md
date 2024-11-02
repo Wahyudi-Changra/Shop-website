@@ -30,13 +30,8 @@ Step 1: Clone the Repository
 Open your terminal or command prompt.
 
 Clone the repository with the following command. 
-bash
-Copy code
 git clone https://github.com/Wahyudi-Changra/Shop-website.git
 Navigate to the project folder:
-
-bash
-Copy code
 cd <Shop-website>
 Step 2: Set Up the Database
 Open your MySQL database management tool, such as phpMyAdmin or MySQL Workbench.
@@ -47,8 +42,6 @@ Inside the project folder, locate the config.php file (or create one if it’s m
 
 Open config.php and enter your database connection details:
 
-php
-Copy code
 <?php
 $db_host = 'localhost';     // Database Host
 $db_name = 'shop_db';       // Database Name
@@ -68,16 +61,12 @@ You can use PHP's built-in server for testing purposes:
 
 Inside the project folder, open the terminal and run:
 
-bash
-Copy code
 php -S localhost:8000
 Open a web browser and go to http://localhost:8000 to view the project.
 
 Folder Structure
 Here's an overview of the main directories and files in this project:
 
-graphql
-Copy code
 - index.php                # Home page
 - login.php                # Login page
 - register.php             # Register page
